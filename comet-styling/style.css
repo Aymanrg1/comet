@@ -55,6 +55,21 @@ h1 {
   filter: brightness(0) invert(1);
 }
 
+.logo {
+  animation: tilt 3s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes tilt {
+  from {
+    transform: rotate(-3deg);
+  }
+
+  to {
+    transform: rotate(3deg);
+  }
+}
+
 @media (max-width: 600px) {
   html,
   body {
