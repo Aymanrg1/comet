@@ -93,6 +93,9 @@ body {
 
 
 @media (max-width: 700px) {
+    body {
+    height: 100vh;
+  }
   img {
     width: 200px;
   }
