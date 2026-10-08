@@ -107,14 +107,23 @@ body {
 }
 
 .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: white;
+  color: #000;
+
   height: 40px;
   width: 104px;
+
   border-radius: 7px;
-  cursor: pointer;
-  font-family: "ArabicFont";
-  font-size: 16px;
-  border: none;
+
+  text-decoration: none;
+
+  font-family: "MyFont";
+  font-size: 14px;
+
   transition: .5s;
 }
 
@@ -182,20 +191,28 @@ h2 {
   }
 }
 
-.hero button {
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: #FFAE21;
+  color: #000;
+
   height: 56px;
   width: 240px;
-  border: none;
+
   border-radius: 4px;
+
+  text-decoration: none;
+
   font-size: 20px;
-  cursor: pointer;
-  font-family: inherit;
   font-weight: 500;
+
   transition: .5s;
 }
 
-.hero button:hover {
+.hero-btn:hover {
   background-color: #996814;
 }
 
@@ -724,7 +741,7 @@ h2 {
 
 @media (max-width: 700px) {
 
-    body {
+  body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1028,14 +1045,14 @@ h2 {
 
 @media (max-width: 380px) {
 
-    body {
+  /* NAVBAR */
+
+  body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-
-  /* NAVBAR */
 
   .navbar {
     width: 94%;
@@ -1115,6 +1132,5 @@ h2 {
   .footer .contact-us-links a {
     margin-bottom: 8px;
   }
-
 
 }
