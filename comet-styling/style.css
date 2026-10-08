@@ -724,6 +724,13 @@ h2 {
 
 @media (max-width: 700px) {
 
+    body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   /* GENERAL */
 
   .second-title h2 {
@@ -1020,6 +1027,13 @@ h2 {
 /* ---------- Very Small Phones ---------- */
 
 @media (max-width: 380px) {
+
+    body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
   /* NAVBAR */
 
