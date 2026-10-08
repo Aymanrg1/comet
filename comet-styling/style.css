@@ -742,7 +742,7 @@ h2 {
 @media (max-width: 700px) {
 
   body {
-    background-image: url("../media/bg-mob.png");
+    background-image: url("../media/bg-mob-v.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
