@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #FFAE21;
+  color: #000;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "ArabicFont";
+  src: url("../fonts/Cairo/Cairo-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+body {
+  min-height: 100vh;
+  font-family: "MyFont";
+  background-image: url("../media/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.logo {
+  animation: tilt 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  margin: auto;
+}
+
+.success-page {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.success-box {
+  width: 90%;
+}
+
+.success-box h1 {
+  font-size: 40px;
+  margin: 15px 0;
+  color: #6D28D9;
+}
+
+.success-box p {
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.success-box a {
+  display: inline-block;
+
+  padding: 12px 25px;
+
+  background: #FFAE21;
+  color: #000;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.success-box a:hover {
+  background: #996814;
+}
+
+@keyframes tilt {
+  from {
+    transform: rotate(-3deg);
+  }
+
+  to {
+    transform: rotate(3deg);
+  }
+}
