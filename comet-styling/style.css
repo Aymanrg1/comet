@@ -742,6 +742,7 @@ h2 {
 @media (max-width: 700px) {
 
   body {
+    background-image: url("../media/bg-mob.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1016,8 +1017,8 @@ h2 {
   }
 
   .footer .social-media img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
   }
 
   .footer .contact-us-links p {
